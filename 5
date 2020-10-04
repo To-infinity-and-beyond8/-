@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n, m, i, a;
+	cin >> m;
+	cin >> n;
+	for (i = 0; i < 1; i++)
+	{
+		for (a = 0; a < n; a++)
+		{
+			cout << "+";
+		}
+		cout << endl;
+	}
+
+	for (i = 1; i < m - 1; i++)
+	{
+		cout << "+";
+		for (a = 0; a < n - 2; a++)
+		{
+			cout << " ";
+		}
+		cout << "+";
+		cout << endl;
+	}
+		for (i = m - 1; i < m; i++)
+		{
+			for (a = 0; a < n; a++)
+			{
+				cout << "+";
+			}
+			cout << endl;
+		}
+	}
